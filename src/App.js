@@ -129,7 +129,7 @@ function App() {
         // ` Total Amount: $${details.total}` +
         // ` Order Time: ${details.timestamp}`
 
-      booking: `Hello! I would like to make a reservation at *74 Lounge Bar*%0a%0a` +
+      booking: `Hello! I would like to make a reservation at *Lounge Bar*%0a%0a` +
         `*Reservation Details:*%0a` +
         `Name: ${details.name}%0a` +
         `Date: ${new Date(details.date).toLocaleDateString()}%0a` +
@@ -141,7 +141,7 @@ function App() {
         `*Booking Time:* ${new Date().toLocaleString()}`
     };
 
-    return `https://wa.me/38349249988?text=${encodeURIComponent(messages[type])}`;
+    return `https://wa.me/38348222209?text=${encodeURIComponent(messages[type])}`;
   };
 
   const handleCheckout = async () => {
@@ -239,7 +239,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
             <div className="flex items-center">
-              <h1 className="text-3xl font-cursive text-white cursor-pointer" onClick={() => handleNavigation('home')}>74 Lounge Bar</h1>
+              <h1 className="text-3xl font-cursive text-white cursor-pointer" onClick={() => handleNavigation('home')}>Lounge Bar</h1>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <button onClick={() => handleNavigation('home')} className="text-white hover:text-primary">HOME</button>
