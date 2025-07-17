@@ -1,6 +1,6 @@
-# 74 Lounge Bar - Modern Restaurant Menu
+# Lounge Bar - Modern Restaurant Menu
 
-A modern, responsive restaurant menu web app for **74 Lounge Bar** built with React and Tailwind CSS. This project features a beautiful UI, category filtering, search, cart, and WhatsApp integration for both food orders and table reservations.
+A modern, responsive restaurant menu web app for **Lounge Bar** built with React and Tailwind CSS. This project features a beautiful UI, category filtering, search, cart, and WhatsApp integration for both food orders and table reservations.
 
 ## Features
 
@@ -20,9 +20,9 @@ A modern, responsive restaurant menu web app for **74 Lounge Bar** built with Re
 - **React Icons**
 - **PostCSS**
 
-## Screenshots
 
-![Menu Screenshot](public/menu-screenshot.png)
+
+
 
 ## Getting Started
 
@@ -68,4 +68,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-> Made with ❤️ for 74 Lounge Bar 
+> Made with ❤️ for Lounge Bar 
