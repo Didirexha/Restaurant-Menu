@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaShoppingCart, FaUser, FaSearch, FaPhone, FaClock, FaMapMarkerAlt, FaPlus, FaMinus, FaTimes, FaCalendar, FaUserFriends } from 'react-icons/fa';
+import { FaShoppingCart, FaSearch, FaPhone, FaClock, FaMapMarkerAlt, FaPlus, FaMinus, FaTimes, FaCalendar, FaUserFriends } from 'react-icons/fa';
 import './hero.css';
 
 const menuCategories = ['All', 'Burger', 'Pizza', 'Pasta', 'Fries'];
