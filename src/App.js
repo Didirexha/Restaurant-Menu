@@ -122,7 +122,7 @@ function App() {
 
   const formatWhatsAppMessage = (type, details) => {
     const messages = {
-      order: `Hello! I would like to place an order at 74 Lounge Bar. \n` +
+      order: `Hello! I would like to place an order at Lounge Bar. \n` +
         ` Order Details: \n` +
         `${details.items.map(item => `• ${item.quantity} ${item.name} \n`)}` ,
         // ` Special Instructions:${details.note }` +
@@ -248,7 +248,7 @@ function App() {
               <button onClick={() => handleNavigation('book')} className="text-white hover:text-primary">BOOK TABLE</button>
             </div>
             <div className="flex items-center space-x-6">
-              <FaUser className="text-white hover:text-primary cursor-pointer w-5 h-5" />
+              
               <div className="relative">
                 <FaShoppingCart 
                   className="text-white hover:text-primary cursor-pointer w-5 h-5"
