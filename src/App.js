@@ -439,7 +439,7 @@ function App() {
             <div className="space-y-6">
               <h2 className="text-4xl font-cursive text-white mb-6">About Us</h2>
               <p className="text-gray-300 leading-relaxed">
-                Welcome to 74 Lounge Bar, where culinary excellence meets modern ambiance. 
+                Welcome to Lounge Bar, where culinary excellence meets modern ambiance. 
                 Established with a passion for exceptional dining experiences, we take pride 
                 in serving you the finest selection of dishes crafted with premium ingredients.
               </p>
